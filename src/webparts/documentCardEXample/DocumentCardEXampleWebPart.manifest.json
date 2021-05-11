@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "fc06f271-87de-4997-ae81-8631c7a59ecb",
+  "alias": "DocumentCardEXampleWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Other" },
+    "title": { "default": "DocumentCardEXample" },
+    "description": { "default": "Steps configuration" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "configuration": "[{\"idx\":0,\"title\":\"Step 0\",\"body\":\"<h3>HELLO WOROLD: this is step 0</h3>\",\"allowBack\":false,\"times\":15000,\"showButtons\":true}]",
+      "steps": "steps"
+    }
+  }]
+}
